@@ -1,0 +1,48 @@
+<style>
+    .email-signup-modal {
+      border: 2px solid #000;
+      max-width: 500px;
+      width: 100%;
+      position: relative;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+    }
+    .email-signup-modal .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .email-signup-modal button[aria-label='close'],
+    .email-signup-modal button[aria-label='close']:focus,
+    .email-signup-modal button[aria-label='close']:hover {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      text-transform: none;
+    }
+    .email-signup-modal .email-form .error {
+      display: block;
+    }
+    .email-signup-modal .email-input {
+      border: 1px solid #555;
+      margin: 5px auto;
+      padding: 12px;
+    }
+    .ca-purple{
+      color: #3c317e;
+    }
+    </style>
+    
+    
+    
+    <div id="email-signup-modal" class="email-signup-modal module-ww module-studio bg-white" role="dialog" aria-labelledby="email-modal-title">
+      <button aria-label="close" class="modal-close bg-white mont-reg black fs50 line-height-p6 border-0 p10">&times;</button>
+      <div class="text-center p20">
+        <p class="mont-bold fs20 uppercase mt30">Your 40% OFF coupon has been created!</p>
+        <h2 id="email-modal-title" class="m0"><span class="block mont-bold ca-purple fs35 uppercase mtb10">Check your inbox for your unique code</span></h2>
+        <p class="mont-reg fs20 line-height-1p3">You have 48 hours to complete your purchase before this coupon expires.</p>
+        <a class="inline-block bg-black white mont-bold fs18 uppercase letter-spacing-1 cta-btn mb30" href="/w/featured/top-sellers/">Shop now</a>
+        <p class="mont-reg line-height-1p3 fs12 letter-spacing-0 m0">First time registrants only. 40% off highest priced item. Cannot be combined with other offers. One-time use only. Not applicable to clearance items and products shipped from manufacturer. Entering your email also makes you eligible to receive future promotional emails.</p>
+      </div>
+    </div>
